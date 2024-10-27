@@ -1,0 +1,349 @@
+*{
+    font-family: 'Noto Sans';
+}
+
+body{
+    background-color: black;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 51rem;
+}
+.left-bar{
+    width: 20em;
+    height:56rem;
+    margin-left: 40px;
+    align-items: center;
+
+}
+.middle-bar{
+    margin-top: 10px;
+    width: 40em;
+    height: 56rem;
+    margin-left: 20px;
+    background-color: #121212;
+    border-radius: 20px;
+    align-items: center;
+    
+}
+.right-bar{
+    width: 22em;
+    height: 56rem;
+    margin-left: 25px;
+    background-color: #121212;
+    border-radius: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.menu{
+    width: 100%;
+    height: 8em;
+    border-radius: 20px;
+    background-color: #121212;
+    margin-top: 10px;
+}
+.playlists{
+    width: 100%;
+    height: 46em;
+    border-radius: 20px;
+    background-color: #121212;
+    margin-top: 20px;
+}
+.menu1{
+    height: 50px;
+    display: flex;
+  
+}
+.menu1 a{
+    text-decoration: none;
+}
+.menu1 img{
+    margin-top: 10px;
+}
+.menu1 p{
+    margin-left: 20px;
+    color: #b3b3b3;
+}
+.i1{
+    margin-left: 80px;
+}
+.i2{
+    margin-left: 30px;
+}
+.menu1 button{
+    margin-left: 10px;
+    border-radius: 20px;
+    height: 30px;
+    width: 70px;
+    background-color: #6b6b6b;
+    opacity: 40%;
+    color: #ffffff;
+}
+.menu li{
+    list-style: none;
+    margin-left: 20px;
+}
+.menu1 li{
+    list-style: none;
+    margin-left: 20px;
+}
+.playlist{
+    height: 70px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.item{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.title p{
+    margin-left: 10px;
+    color: #ffffff;
+}
+.pic1{
+    background: url(images/play1.webp);
+    background-size: cover;
+}
+.pic2{
+    background: url(images/play2.webp);
+    background-size: cover;
+}
+.pic3{
+    background: url(images/play3.jpeg);
+    background-size: cover;
+}
+.pic4{
+    background: url(images/play4.png);
+    background-size: cover;
+}.pic5{
+    background: url(images/play6.jpeg);
+    background-size: cover;
+}
+.pic6{
+    background: url(images/play5.avif);
+    background-size: cover;
+}
+.header{
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.back{
+    width: 30px;
+    border-radius: 100%;
+    height: 30px;
+    margin-top: 9px;
+    margin-left: 10px;
+    background-color: #000;
+}
+.b{
+    padding: 5px;
+}
+.f{
+    padding: 5px;
+}
+.s{
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.search{
+    width: 16em;
+    margin-left: 10px;
+    border-radius: 30px;
+    display: flex;
+    background-color: rgba(80, 78, 78, 0.35);
+    border: 0;
+}
+.search input{
+    border: 0;
+    padding: auto;
+}
+.install{
+    width: 7em;
+    margin-left: 10px;
+    border-radius: 30px;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    background-color: #000;
+    color: white;
+    
+}
+.NP{
+    width: 30px;
+    border-radius: 100%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.n{
+    background-color: #000;
+}
+.nc{
+    padding: 4px;
+}
+.p{
+    background-image: url(images/gentil.jpg);
+    background-size: cover;
+}
+.inputbox{
+    border-radius: 30px;
+    width: 13em;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-left: 10px ;
+    border: none;
+    margin-top: 3px;
+}
+.i{
+    width: 17px;
+    height: 17px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.install p{
+    font-size: 12px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+h2{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.container{
+    height: 13em;
+    width: 100%;
+    display: flex;
+}
+.jb{
+    width: 10em;
+    height: 10em;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.jb p{
+    margin-top: 170px;
+    color: white;
+}
+.p1{
+    border-radius: 100%;
+    background-image: url(images/jb.jpeg);
+    background-size: cover;
+}
+.p2{
+    background-image: url(images/p1.png);
+    background-size: cover;
+}
+.p3{
+    background-image: url(images/p2.png);
+    background-size: cover;
+}
+.p4{
+    background-image: url(images/p3.png);
+    background-size: cover;
+}
+.p5{
+    background-image: url(images/p4.png);
+    background-size: cover;
+}
+.p6{
+    background-image: url(images/p5.png);
+    background-size: cover;
+}
+.p7{
+    background-image: url(images/p6.png);
+    background-size: cover;
+}
+.p8{
+    background-image: url(images/p7.png);
+    background-size: cover;
+}
+.p9{
+    background-image: url(images/p8.png);
+    background-size: cover;
+}
+.head{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.head p{
+    color: white;
+    margin-left: 10px;
+}
+.head a{
+    margin-left: 250px;
+    margin-top: 15px;
+}
+.im1{
+    padding: 6px;
+}
+.des a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 24px;
+}
+.box{
+    width: 95%;
+    height: 27em;
+    background-color: #242424;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.inpic{
+    height: 50%;
+    width: 100%;
+    background-image: url(images/i2.png);
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.des1 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.listener{
+    height: 50px;
+    display: flex;
+}
+.listener button{
+    margin-left: 15px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 30px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #b3b3b3;
+    color: white;
+}
+.listener p{
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.right-bar p{
+    color: white;
+    margin-left: 6px;
+}
+.play-song{
+    position: absolute;
+    border: 2px solid red;
+    width: 100%;
+    height: 50px;
+}
